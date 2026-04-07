@@ -122,6 +122,16 @@
 
   .hero-diagram {
     min-height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .hero-diagram-img {
+    width: 70%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
   }
   
   /* ===========================
