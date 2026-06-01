@@ -67,6 +67,24 @@
     letter-spacing: 0.06em;
     margin-bottom: 48px;
   }
+
+  .logo a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 1px dotted transparent;
+    padding-bottom: 2px;
+  }
+
+  .logo a:hover {
+    border-bottom-color: currentColor;
+  }
+
+  .logo .home-icon {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
   
   .section-title {
     font-size: 10px;
